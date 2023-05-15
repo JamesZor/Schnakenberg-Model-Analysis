@@ -6,6 +6,7 @@ In this system, we will analyze the unique steady state and derive stability con
 $$
   \frac{\partial u}{\partial t} = \Delta u + \eta(a - u + u^2v) = \Delta u + \eta f(u,v),
 $$
+$$
   \frac{\partial v}{\partial t} = d\Delta v + \eta(b - u^2v) = d \Delta v + \eta g(u,v),
 $$
 
