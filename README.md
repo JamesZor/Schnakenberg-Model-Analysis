@@ -6,12 +6,14 @@ In this system, we will analyze the unique steady state and derive stability con
 $$
   \frac{\partial u}{\partial t} = \Delta u + \eta(a - u + u^2v) = \Delta u + \eta f(u,v),
 $$
+
 $$
   \frac{\partial v}{\partial t} = d\Delta v + \eta(b - u^2v) = d \Delta v + \eta g(u,v),
 $$
 
 
 In this context, both species are uniformly generated throughout the domain. The variable $u$ undergoes linear decay, while $v$ undergoes nonlinear and autocatalytic conversion to $u$. The diffusion rate $d$ influences the relative speed of dispersal between the two species, and the parameter $\eta$ determines the balance between diffusion and the chemical reaction.
+
 
 
 ## Hopf bifurcation
